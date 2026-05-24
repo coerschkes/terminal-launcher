@@ -8,7 +8,7 @@ const SOCKET = "/tmp/hyperland-daemon.sock"
 
 func main() {
 	pwd := NewPwdLoader(SOCKET).LoadFromSocket()
-	cmd := exec.Command("alacritty", "--working-directory", pwd)
+	cmd := exec.Command("ghostty", "--working-directory="+pwd)
 
 	if err := cmd.Start(); err != nil {
 		panic(err)
