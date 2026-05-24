@@ -1,3 +1,3 @@
-module github.com/coerschkes/alacritty-launcher
+module github.com/coerschkes/terminal-launcher
 
 go 1.25.5

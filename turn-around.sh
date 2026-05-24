@@ -1,5 +1,5 @@
 #!/bin/bash
 
 go build .
-sudo rm /usr/local/bin/alacritty-launcher
-sudo mv alacritty-launcher /usr/local/bin/alacritty-launcher
+sudo rm /usr/local/bin/terminal-launcher
+sudo mv terminal-launcher /usr/local/bin/terminal-launcher
